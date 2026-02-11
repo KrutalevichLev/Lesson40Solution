@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+int find_сhar(string str, char ch);
+
 int main() {
     cout << find_сhar("Hello", 'e');
     return 0;

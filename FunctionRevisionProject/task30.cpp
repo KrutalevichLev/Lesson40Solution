@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+bool is_vowel(char ch);
+
 int main() {
     cout << is_vowel('a');
     return 0;

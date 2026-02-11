@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+double average(double a, double b, double c);
+
 int main() {
     double a = 1.5f, b = 2.5f, c = 3.5f;
     cout << average(a, b, c);

@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+long double square(long double number);
+
 int main() {
     cout << square(3.5f);
     return 0;

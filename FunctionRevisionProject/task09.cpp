@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+string repeat_symbol(char ch, int count);
+
 int main()
 {
     cout << repeat_symbol('*', 5);

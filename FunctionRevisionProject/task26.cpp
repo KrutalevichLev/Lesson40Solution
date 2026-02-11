@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+long long fibonacci(int n);
+
 int main() {
     fibonacci(10);
     return 0;

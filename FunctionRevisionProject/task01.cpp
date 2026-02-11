@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+double multiply(int a, double b);
+
 int main()
 {
     cout << multiply(5, 3.5f);

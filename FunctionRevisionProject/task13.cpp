@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+string substring(string str, int start, int length);
+
 int main()
 {
     cout << substring("Programming", 3, 5);

@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+long long sum_large(short a, long long b);
+
 int main()
 {
     cout << sum_large(100, 10000000000LL);

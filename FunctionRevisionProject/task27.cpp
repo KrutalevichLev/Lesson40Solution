@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+bool is_prime(int num);
+
 int main() {
     cout << is_prime(7);
     return 0;

@@ -5,6 +5,8 @@
 #include <iostream>
 using namespace std;
 
+bool abs_value(double num, bool take_abs);
+
 int main()
 {
     cout << abs_value(-5.5, true);

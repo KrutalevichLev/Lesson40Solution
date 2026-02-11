@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+long long factorial(int n);
 
 int main() {
     cout << factorial(5);

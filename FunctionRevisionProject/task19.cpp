@@ -5,6 +5,8 @@
 #include <string>
 using namespace std;
 
+string print_table(int n, int m);
+
 int main()
 {
     cout << print_table(10, 10);

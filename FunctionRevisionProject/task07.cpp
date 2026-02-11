@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+long long subtract(long long a, short b);
+
 int main()
 {
     cout << subtract(10000000000LL, 100);
