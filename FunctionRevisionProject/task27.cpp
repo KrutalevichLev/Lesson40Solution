@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 
-... is_prime(... num) {
+bool is_prime(int num) {
     if (num <= 1) {
         return false;
     }

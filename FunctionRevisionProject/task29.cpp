@@ -3,14 +3,15 @@
 #include <iostream>
 using namespace std;
 
-... reverse_string(... str) {
-    ... result;
+string reverse_string(string str) {
+    string result;
     for (int i = str.length() - 1; i >= 0; i--) {
         result += str[i];
     }
-    return return result;
+    return result;
 }
 
 int main() {
-    cout << ... return 0;
+    cout << reverse_string("Lol kek eshkere.");
+    return 0;
 }
