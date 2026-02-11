@@ -10,6 +10,6 @@ void print_сhar_and_string(char symbol, string text)
 
 int main()
 {
-    print_сhar_and_string(s, "string text");
+    print_сhar_and_string('s', "string text");
     return 0;
 }

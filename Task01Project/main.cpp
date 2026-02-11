@@ -20,6 +20,19 @@
 #include "logic.h"
 
 int main() {
+	int day;
+	int pushup;
+
+	cout << "Enter days: ";
+	cin >> day;
+	cout << "Enter pushups: ";
+	cin >> pushup;
+
+	int quantity_pushup = get_all_pushups(day, pushup);
+
+	string msg = get_pushups_statistic(day, pushup);
+
+	cout << "All push-ups: " << quantity_pushup << endl << msg;
 
 	return 0;
 }
