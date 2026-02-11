@@ -9,7 +9,7 @@ bool check_positive(double num, bool strict)
 
 int main()
 {
-    check_positive(3.14f, true);
+    cout << check_positive(3.14f, true);
     return 0;
 }
 

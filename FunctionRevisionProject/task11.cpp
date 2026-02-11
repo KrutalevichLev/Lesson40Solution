@@ -13,7 +13,7 @@ int main()
     return 0;
 }
 
-bool abs_value(double num, bool take_abs)
+double abs_value(double num, bool take_abs)
 {
-    return take_abs ? (num < 0 ? -num : num) : num;
+    return take_abs && (num < 0 ? -num : num);
 }

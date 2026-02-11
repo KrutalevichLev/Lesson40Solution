@@ -2,6 +2,7 @@
 // символ и строку.
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 string concat(char ch, string str)
