@@ -9,6 +9,6 @@ int main() {
     return 0;
 }
 
-... sub(...) {
-    return ...;
+int sub(int a,int b) {
+    return a - b;
 }

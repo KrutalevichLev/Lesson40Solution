@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 
-... find_сhar(... str, ... ch) {
+int find_сhar(string str, char ch) {
     for (int i = 0; i < str.length(); i++) {
         if (str[i] == ch) {
             return i;

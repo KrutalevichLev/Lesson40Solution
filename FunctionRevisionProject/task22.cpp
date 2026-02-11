@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 
-... square(...) {
-    return ...;
+long double square(long double number) {
+    return number * number;
 }
 

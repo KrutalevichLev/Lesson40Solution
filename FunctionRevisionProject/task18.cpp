@@ -3,13 +3,14 @@
 #include <iostream>
 using namespace std;
 
-... print_status(... code, ... success)
+void print_status(int code, bool success)
 {
     cout << "Code: " << code << ", Success: " << (success ? "Yes" : "No");
 }
 
 int main()
 {
+    print_status(6969, true);
     return 0;
 }
 

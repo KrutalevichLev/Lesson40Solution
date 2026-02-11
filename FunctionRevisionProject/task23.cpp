@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-... to_upper(... ch) {
+char to_upper(char ch) {
     if (ch >= 'a' && ch <= 'z') {
         return ch - 'a' + 'A';
     }
@@ -13,5 +13,6 @@ using namespace std;
 }
 
 int main() {
+    cout << to_upper('a');
     return 0;
 }

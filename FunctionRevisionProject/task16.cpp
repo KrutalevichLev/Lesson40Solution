@@ -10,8 +10,8 @@ int main()
     return 0;
 }
 
-... sum(...)
+long double sum(double a, long long b)
 {
-    return ...;
+    return a + b;
 }
 

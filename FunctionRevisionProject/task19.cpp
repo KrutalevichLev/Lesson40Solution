@@ -1,5 +1,5 @@
 ﻿// Задание 19: Добавьте прототип и вызов функции, которая принимает два целых значения
-// и ыозырвщвет таблицу Пифагора 10 на 10.
+// и возвращает таблицу Пифагора 10 на 10.
 
 #include <iostream>
 #include <string>
@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
+    cout << print_table(10, 10);
     return 0;
 }
 
-... print_table(...)
+string print_table(int n, int m)
 {
     string table = "";
     
